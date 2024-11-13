@@ -1,0 +1,15 @@
+info:
+  app:
+    name: thanos
+
+server:
+  port: 8081
+  servlet:
+    contextPath: /thanos
+
+user:
+  timezone: America/Sao_Paulo
+
+spring:
+  redis:
+    url: 127.0.0.1:6379,password=,ssl=False,abortConnect=False
